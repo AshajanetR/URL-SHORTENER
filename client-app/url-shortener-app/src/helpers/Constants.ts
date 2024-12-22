@@ -1,1 +1,1 @@
-export const serverUrl=import.meta.env.VITE_SERVER_URL || "http://localhost:50001/api"
+export const serverUrl=import.meta.env.VITE_SERVER_URL || "https://url-shortener-backend-kappa.vercel.app/api"
