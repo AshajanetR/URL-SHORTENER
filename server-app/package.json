@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener-api",
+  "version": "1.0.0",
+  "description": "This project contains URL shortener APIs",
+  "main": "server.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/server.js",
+    "dev": "nodemon",
+    "deploy": "npm run build && npm run start"
+  },
+  "author": "Ashajanet R",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "nanoid": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
